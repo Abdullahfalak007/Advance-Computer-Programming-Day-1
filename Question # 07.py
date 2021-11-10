@@ -22,50 +22,50 @@ for i in list1:
     if i%4 == 0:
         four_list.append(i)
     
-    elif  i%6 == 0:
+    if  i%6 == 0:
         six_list.append(i)
         
-    elif  i%8 == 0:
+    if  i%8 == 0:
         eight_list.append(i)
         
-    elif  i%10 == 0:
+    if  i%10 == 0:
         ten_list.append(i)
         
-    elif  i%3 == 0:
+    if  i%3 == 0:
         three_list.append(i)
     
-    elif  i%5 == 0:
+    if  i%5 == 0:
         five_list.append(i)
         
-    elif  i%7 == 0:
+    if  i%7 == 0:
         seven_list.append(i)
         
-    elif  i%9 == 0:
+    if  i%9 == 0:
         nine_list.append(i)
         
 for i in list2:
     if i%4 == 0:
         four_list.append(i)
     
-    elif  i%6 == 0:
+    if  i%6 == 0:
         six_list.append(i)
         
-    elif  i%8 == 0:
+    if  i%8 == 0:
         eight_list.append(i)
         
-    elif  i%10 == 0:
+    if  i%10 == 0:
         ten_list.append(i)
         
-    elif  i%3 == 0:
+    if  i%3 == 0:
         three_list.append(i)
     
-    elif  i%5 == 0:
+    if  i%5 == 0:
         five_list.append(i)
         
-    elif  i%7 == 0:
+    if  i%7 == 0:
         seven_list.append(i)
         
-    elif  i%9 == 0:
+    if  i%9 == 0:
         nine_list.append(i)
 
 #printing each list  
